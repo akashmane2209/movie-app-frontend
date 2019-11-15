@@ -7,6 +7,7 @@ export default class MovieDetail extends Component {
       <div className="imagebg">
         <Row className="p-5">
           <Col
+            offset={2}
             lg={4}
             xs={24}
             sm={24}
@@ -91,9 +92,12 @@ export default class MovieDetail extends Component {
                 </p>
               </Col>
             </Row>
-            {/* <Row>
+            <Row>
               <Col lg={24} xs={24} sm={24}>
-                <h5 className="headingValue" style={{ color: "#570AFF" }}>
+                <h5
+                  className="headingValue"
+                  style={{ color: "#570AFF", fontSize: 16 }}
+                >
                   Description
                 </h5>
 
@@ -103,24 +107,7 @@ export default class MovieDetail extends Component {
                   becoming an infamous psychopathic crime figure.
                 </p>
               </Col>
-            </Row> */}
-          </Col>
-          <Col
-            lg={4}
-            xs={24}
-            sm={24}
-            style={{ float: "left", textAlign: "center" }}
-            className="mt-5"
-          >
-            <h5 className="headingValue" style={{ color: "#570AFF" }}>
-              Description
-            </h5>
-
-            <p className="heading">
-              During the 1980s, a failed stand-up comedian is driven insane and
-              turns to a life of crime and chaos in Gotham City while becoming
-              an infamous psychopathic crime figure.
-            </p>
+            </Row>
           </Col>
         </Row>
       </div>
