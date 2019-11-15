@@ -15,7 +15,7 @@ export default class MovieDetail extends Component {
           >
             <img
               style={{ width: 195 }}
-              className="mb-3"
+              className="mb-3 img"
               alt="example"
               src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
             />
