@@ -15,7 +15,7 @@ export default class Header extends Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
-        <Navbar.Brand href="#home">Movies Now</Navbar.Brand>
+        <Navbar.Brand href="#">Movies Now</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Form inline>
