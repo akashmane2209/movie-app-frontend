@@ -1,0 +1,39 @@
+.imagebg {
+  background: linear-gradient(rgba(2, 2, 2, 0.39), rgba(0, 0, 0, 0.993)),
+    url("https://image.tmdb.org/t/p/w500/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg");
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  /* background-attachment: fixed; */
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  background-color: #464646;
+  overflow: hidden;
+}
+
+.heading {
+  color: #a6a6a6;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.headingValue {
+  color: white;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url("https://image.tmdb.org/t/p/w500/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg");
+  }
+}
